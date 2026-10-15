@@ -1,0 +1,30 @@
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+dist-ssr/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Local diagnostic and backup scripts
+backend/check-prisma.js
+backend/check-tables.js
+backend/check-users.js
+backend/test-prisma.js
+backend/server-backup.js
